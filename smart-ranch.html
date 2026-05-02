@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智慧牧场 | 项目详情</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="项目导航">
+      <a href="../index.html">返回主页</a>
+      <a href="#work">我的职责</a>
+      <a href="#fit">研究关联</a>
+    </nav>
+    <div class="hero-main">
+      <p class="kicker">Project Detail</p>
+      <h1>智慧牧场</h1>
+      <p class="subtitle">基于分布式感知节点与 MQTT 通信网络的高原牦牛养殖管理系统</p>
+      <p class="hero-summary">项目周期：2025.04 - 2025.06 | 角色：核心开发成员</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="card reveal">
+      <h2>项目概述</h2>
+      <p>面向青藏高原牦牛养殖中环境监测难、个体管理粗放和劳动力短缺等痛点，设计并实现了集成环境感知、个体识别与智能决策的物联网养殖管理系统。</p>
+    </section>
+
+    <section class="card reveal" id="work">
+      <h2>我的职责</h2>
+      <ul>
+        <li>作为核心开发成员，主导系统硬件选型、嵌入式开发和前后端联调。</li>
+        <li>完成基于 ESP32 的分布式边缘节点设计与温湿度、空气质量、RFID 传感器集成。</li>
+        <li>开发并调试 OpenMV 门禁识别模块，提升个体识别自动化能力。</li>
+        <li>主导搭建基于 EMQX 的 MQTT 消息网络，实现多节点数据汇聚、发布订阅与稳定传输。</li>
+      </ul>
+    </section>
+
+    <section class="card reveal" id="fit">
+      <h2>研究关联</h2>
+      <ul>
+        <li>无线物联网：对应分布式感知节点、多设备接入、数据汇聚与边缘侧状态监测。</li>
+        <li>网络通信实践：基于 MQTT 的发布订阅机制可进一步用于实验不同节点规模下的时延与可靠性。</li>
+        <li>可迁移能力：可衔接移动边缘计算中的任务调度、资源分配和端边协同数据处理问题。</li>
+      </ul>
+    </section>
+
+    <section class="card reveal">
+      <h2>成果与影响</h2>
+      <p>成功完成包含环境监测、牦牛个体 RFID 识别、智能门禁和配套移动端 APP 的完整原型系统。</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> 王波 · 项目详情页</p>
+    <a href="#top">返回顶部</a>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
