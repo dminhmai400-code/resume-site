@@ -11,7 +11,6 @@
   <header class="hero" id="top">
     <nav class="nav" aria-label="主页导航">
       <a href="#fit">研究方向</a>
-      <a href="#education">教育背景</a>
       <a href="#projects">项目经历</a>
       <a href="#skills">能力基础</a>
       <a href="#awards">成果荣誉</a>
@@ -25,6 +24,14 @@
         <p class="hero-summary">
           我希望在研究生阶段围绕边缘智能、移动边缘计算、无线物联网与智能网络资源优化开展研究训练。现有经历以端侧感知设备、嵌入式开发、MQTT 多节点通信和边端 AI 推理为主，能够从真实系统实现出发理解网络接入、计算卸载、任务调度与低时延智能应用中的关键问题。
         </p>
+        <div class="hero-education">
+          <div class="row">
+            <h2>西北师范大学 | 人工智能与计算机学院 | 软件工程</h2>
+            <span>2023.09 - 2027.06</span>
+          </div>
+          <p>GPA：3.68 / 5.00 | 专业排名：3 / 42 | 英语：CET-4</p>
+          <p>核心课程：数据结构(90)、计算机网络(86，班级最高)、Python程序设计(98)、算法设计与分析(90)、Web前端开发(93)、移动应用开发(95)</p>
+        </div>
         <div class="metric-grid">
           <div>
             <span>GPA</span>
@@ -83,28 +90,16 @@
       </div>
     </section>
 
-    <section id="education" class="section section-muted reveal">
-      <div class="section-head">
-        <p class="kicker">Education</p>
-        <h2>教育背景</h2>
-      </div>
-      <div class="info-card">
-        <div class="row">
-          <h3>西北师范大学 | 人工智能与计算机学院 | 软件工程</h3>
-          <span>2023.09 - 2027.06</span>
-        </div>
-        <p>GPA：3.68 / 5.00 | 排名：3 / 42 | 英语：CET-4</p>
-        <p>核心课程：数据结构(90)、计算机网络(86，班级最高)、Python程序设计(98)、算法设计与分析(90)、Web前端开发(93)、移动应用开发(95)</p>
-      </div>
-    </section>
-
-    <section id="projects" class="section reveal">
-      <div class="section-head">
+    <section id="projects" class="section section-muted reveal">
+      <div class="section-head section-head-inline">
+        <div>
         <p class="kicker">Projects</p>
         <h2>项目与科研经历</h2>
+        </div>
+        <span>点击卡片查看详细介绍</span>
       </div>
       <div class="project-grid">
-        <article class="project-card">
+        <a class="project-card" href="lingxi-smart-helmet.html">
           <div class="row">
             <div>
               <p class="time">2024.11 - 2025.12</p>
@@ -113,19 +108,14 @@
             <span>项目负责人</span>
           </div>
           <p>主导需求调研、方案设计到系统实现，围绕环境感知、风险预警和语音交互构建主动安全系统。</p>
-          <ul>
-            <li>负责边端 AI 推理硬件架构与多传感器集成方案设计，支撑检测模型在 NPU 侧低时延部署。</li>
-            <li>规划并推进安全预警与 AI 交互功能，完成检测模型到端侧推理流程落地。</li>
-            <li>完成 ESP32 电路与 PCB 设计，并参与产品 3D 结构建模。</li>
-          </ul>
           <p class="project-note">研究关联：端侧 AI 推理、多传感器感知、低时延响应、端边协同任务划分。</p>
           <div class="project-meta">
             <span>校级创新创业训练项目</span>
             <span>西门子杯西部三赛区二等奖</span>
           </div>
-        </article>
+        </a>
 
-        <article class="project-card">
+        <a class="project-card" href="smart-ranch.html">
           <div class="row">
             <div>
               <p class="time">2025.04 - 2025.06</p>
@@ -134,18 +124,13 @@
             <span>核心开发成员</span>
           </div>
           <p>面向高原牦牛养殖中的环境监测、个体识别和远程管理需求，完成物联网原型系统开发。</p>
-          <ul>
-            <li>主导系统硬件选型、嵌入式开发与前后端联调。</li>
-            <li>基于 ESP32 实现分布式边缘感知节点，集成温湿度、空气质量、RFID 等传感器。</li>
-            <li>开发 OpenMV 门禁识别模块，并基于 EMQX 搭建 MQTT 消息网络，实现多节点数据汇聚与发布订阅。</li>
-          </ul>
           <p class="project-note">研究关联：无线物联网接入、多节点通信、边缘数据汇聚、网络可靠传输。</p>
           <div class="project-meta">
             <span>ESP32</span>
             <span>MQTT / EMQX</span>
             <span>OpenMV</span>
           </div>
-        </article>
+        </a>
       </div>
     </section>
 
