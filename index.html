@@ -10,10 +10,9 @@
 <body>
   <header class="hero" id="top">
     <nav class="nav" aria-label="主页导航">
-      <a href="#fit">研究契合</a>
-      <a href="#preparation">科研准备</a>
-      <a href="#projects">项目证据</a>
+      <a href="#fit">研究方向</a>
       <a href="#education">教育背景</a>
+      <a href="#projects">项目经历</a>
       <a href="#skills">能力基础</a>
       <a href="#awards">成果荣誉</a>
     </nav>
@@ -62,78 +61,25 @@
   <main>
     <section id="fit" class="section reveal">
       <div class="section-head">
-        <p class="kicker">Research Fit</p>
-        <h2>面向导师研究方向的通用契合点</h2>
+        <p class="kicker">Research Interests</p>
+        <h2>研究方向与实践基础</h2>
       </div>
       <div class="fit-grid">
         <article class="fit-card">
           <span>01</span>
           <h3>边缘智能与端侧推理</h3>
-          <p>已在智能头盔项目中围绕多传感器感知、NPU 推理部署和低时延预警完成原型设计，后续可进一步学习模型压缩、任务划分、端边协同推理与时延评估。</p>
+          <p>在智能头盔项目中围绕多传感器感知、NPU 推理部署和低时延预警完成原型设计，关注端侧设备在算力受限条件下的实时智能感知与响应。</p>
         </article>
         <article class="fit-card">
           <span>02</span>
           <h3>移动边缘计算与任务卸载</h3>
-          <p>具备从设备节点到云端消息网络的系统搭建经验，能够把实际应用中的算力、能耗、带宽和时延约束转化为可建模、可实验验证的问题。</p>
+          <p>具备从设备节点到云端消息网络的系统搭建经验，理解实际应用中的算力、能耗、带宽和时延约束，并希望围绕端边协同与资源调度继续深入。</p>
         </article>
         <article class="fit-card">
           <span>03</span>
           <h3>无线物联网与智能网络</h3>
           <p>在智慧牧场项目中完成 ESP32 分布式节点、RFID、OpenMV、EMQX/MQTT 通信链路，关注多节点接入、数据汇聚、可靠传输和网络化感知系统工程落地。</p>
         </article>
-      </div>
-    </section>
-
-    <section id="preparation" class="section section-muted reveal">
-      <div class="section-head">
-        <p class="kicker">Preparation</p>
-        <h2>科研准备与下一步学习计划</h2>
-      </div>
-      <div class="roadmap">
-        <div>
-          <h3>已具备的基础</h3>
-          <p>计算机网络课程成绩 86（班级最高），具备 C / Python / Java 编程基础，参与程序设计竞赛、数学建模和软硬件系统项目。</p>
-        </div>
-        <div>
-          <h3>计划补强的理论</h3>
-          <p>系统补充概率统计、凸优化、机器学习、无线网络基础和移动边缘计算综述，重点理解计算卸载、资源分配、频谱/接入控制等问题。</p>
-        </div>
-        <div>
-          <h3>可开展的初步尝试</h3>
-          <p>用 Python 复现基础调度与优化算法，基于已有 ESP32 / MQTT 原型采集时延与吞吐数据，尝试构建小规模端边协同实验环境。</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section reveal">
-      <div class="section-head section-head-inline">
-        <div>
-          <p class="kicker">Evidence</p>
-          <h2>项目与科研经历</h2>
-        </div>
-        <span>点击卡片查看项目详情</span>
-      </div>
-      <div class="project-grid">
-        <a class="project-card" href="lingxi-smart-helmet.html">
-          <p class="time">2024.11 - 2025.12</p>
-          <h3>灵犀智盔</h3>
-          <p>面向边端 NPU 模型加速推理的多传感器主动安全智能骑行头盔。</p>
-          <div class="project-meta">
-            <span>项目负责人</span>
-            <span>端侧推理</span>
-            <span>多传感器</span>
-          </div>
-        </a>
-        <a class="project-card" href="smart-ranch.html">
-          <p class="time">2025.04 - 2025.06</p>
-          <h3>智慧牧场</h3>
-          <p>基于分布式感知节点与 MQTT 通信网络的高原牦牛养殖管理系统。</p>
-          <div class="project-meta">
-            <span>核心开发</span>
-            <span>MQTT</span>
-            <span>无线物联网</span>
-          </div>
-        </a>
       </div>
     </section>
 
@@ -149,6 +95,57 @@
         </div>
         <p>GPA：3.68 / 5.00 | 排名：3 / 42 | 英语：CET-4</p>
         <p>核心课程：数据结构(90)、计算机网络(86，班级最高)、Python程序设计(98)、算法设计与分析(90)、Web前端开发(93)、移动应用开发(95)</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-head">
+        <p class="kicker">Projects</p>
+        <h2>项目与科研经历</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="row">
+            <div>
+              <p class="time">2024.11 - 2025.12</p>
+              <h3>灵犀智盔：边端 NPU 模型加速推理的多传感器主动安全智能骑行头盔</h3>
+            </div>
+            <span>项目负责人</span>
+          </div>
+          <p>主导需求调研、方案设计到系统实现，围绕环境感知、风险预警和语音交互构建主动安全系统。</p>
+          <ul>
+            <li>负责边端 AI 推理硬件架构与多传感器集成方案设计，支撑检测模型在 NPU 侧低时延部署。</li>
+            <li>规划并推进安全预警与 AI 交互功能，完成检测模型到端侧推理流程落地。</li>
+            <li>完成 ESP32 电路与 PCB 设计，并参与产品 3D 结构建模。</li>
+          </ul>
+          <p class="project-note">研究关联：端侧 AI 推理、多传感器感知、低时延响应、端边协同任务划分。</p>
+          <div class="project-meta">
+            <span>校级创新创业训练项目</span>
+            <span>西门子杯西部三赛区二等奖</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="row">
+            <div>
+              <p class="time">2025.04 - 2025.06</p>
+              <h3>智慧牧场：分布式感知节点与 MQTT 通信网络养殖管理系统</h3>
+            </div>
+            <span>核心开发成员</span>
+          </div>
+          <p>面向高原牦牛养殖中的环境监测、个体识别和远程管理需求，完成物联网原型系统开发。</p>
+          <ul>
+            <li>主导系统硬件选型、嵌入式开发与前后端联调。</li>
+            <li>基于 ESP32 实现分布式边缘感知节点，集成温湿度、空气质量、RFID 等传感器。</li>
+            <li>开发 OpenMV 门禁识别模块，并基于 EMQX 搭建 MQTT 消息网络，实现多节点数据汇聚与发布订阅。</li>
+          </ul>
+          <p class="project-note">研究关联：无线物联网接入、多节点通信、边缘数据汇聚、网络可靠传输。</p>
+          <div class="project-meta">
+            <span>ESP32</span>
+            <span>MQTT / EMQX</span>
+            <span>OpenMV</span>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -173,6 +170,10 @@
         <div>
           <h3>组织与推进</h3>
           <p>担任 3D 打印实验室负责人、班长，能承担项目推进、组会组织和实践协作任务。</p>
+        </div>
+        <div>
+          <h3>运动与习惯</h3>
+          <p>长期参与篮球、羽毛球和中长距离骑行，重视团队协作、节奏控制、持续训练与稳定执行。</p>
         </div>
       </div>
     </section>
