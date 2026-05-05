@@ -1,38 +1,81 @@
 <!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>王波 | 保研学术主页</title>
-  <meta name="description" content="王波的保研学术主页，研究兴趣聚焦边缘智能、移动边缘计算、无线物联网与智能网络系统。">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="hero" id="top">
-    <nav class="nav" aria-label="主页导航">
-      <a href="#fit">研究方向</a>
-      <a href="#projects">项目经历</a>
-      <a href="#skills">能力基础</a>
-      <a href="#awards">成果荣誉</a>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>王波 | 个人介绍</title>
+    <meta
+      name="description"
+      content="王波的个人介绍网页，聚焦边缘智能、移动边缘计算、无线物联网与智能网络系统。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-hero" id="top">
+      <nav class="nav" aria-label="主页导航">
+        <a href="#profile">关于我</a>
+        <a href="#projects">项目</a>
+        <a href="#skills">能力</a>
+        <a href="#awards">成果</a>
+      </nav>
 
-    <div class="hero-grid">
-      <div class="hero-main">
-        <p class="kicker">Academic Profile for Graduate Recommendation</p>
-        <h1>王波</h1>
-        <p class="subtitle">软件工程本科生 · 边缘智能与网络化系统方向</p>
-        <p class="hero-summary">
-          我希望在研究生阶段围绕边缘智能、移动边缘计算、无线物联网与智能网络资源优化开展研究训练。现有经历以端侧感知设备、嵌入式开发、MQTT 多节点通信和边端 AI 推理为主，能够从真实系统实现出发理解网络接入、计算卸载、任务调度与低时延智能应用中的关键问题。
-        </p>
-        <div class="hero-education">
-          <div class="row">
-            <h2>西北师范大学 | 人工智能与计算机学院 | 软件工程</h2>
-            <span>2023.09 - 2027.06</span>
+      <div class="intro-shell">
+        <div class="intro-copy">
+          <p class="kicker">Personal Profile</p>
+          <h1>王波</h1>
+          <p class="subtitle">软件工程本科生，关注边缘智能与网络化系统。</p>
+          <p class="hero-summary">
+            我正在把嵌入式设备、无线物联网和端侧 AI
+            推理的工程经历，进一步沉淀为面向研究的问题意识：如何在真实网络、有限算力和低时延需求之间做更好的任务划分、资源调度与系统优化。
+          </p>
+          <div class="intro-actions" aria-label="联系方式">
+            <a href="mailto:18409391231@163.com">18409391231@163.com</a>
+            <a href="tel:18409391231">18409391231</a>
           </div>
-          <p>GPA：3.68 / 5.00 | 专业排名：3 / 42 | 英语：CET-4</p>
-          <p>核心课程：数据结构(90)、计算机网络(86，班级最高)、Python程序设计(98)、算法设计与分析(90)、Web前端开发(93)、移动应用开发(95)</p>
         </div>
-        <div class="metric-grid">
+
+        <aside class="identity-panel" aria-label="个人概览">
+          <img src="3d968b74f1208be9afb83d0b9e625570.jpg" alt="王波" class="portrait-photo" />
+          <dl>
+            <div>
+              <dt>学校</dt>
+              <dd>西北师范大学</dd>
+            </div>
+            <div>
+              <dt>学院</dt>
+              <dd>人工智能与计算机学院</dd>
+            </div>
+            <div>
+              <dt>专业</dt>
+              <dd>软件工程</dd>
+            </div>
+            <div>
+              <dt>方向</dt>
+              <dd>边缘智能 / 物联网 / MEC</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section id="profile" class="section reveal">
+        <div class="profile-layout">
+          <div class="section-head">
+            <p class="kicker">About</p>
+            <h2>嵌入式与边端 AI 工程实践，面向 MEC 方向的研究预备</h2>
+          </div>
+          <div class="profile-text">
+            <p>
+              本科阶段以两个完整系统项目为主线：在灵犀智盔中，主导边端 NPU 推理架构设计与多传感器集成，完成了目标检测模型从训练到端侧低时延闭环的全流程；在智慧牧场中，独立负责 ESP32 分布式感知节点开发与 EMQX 消息网络搭建，实现了多节点数据的稳定汇聚与发布订阅。两个项目均由硬件原型走到可演示系统，分别获校级立项与竞赛二等奖。
+            </p>
+            <p>
+              这些经历让我对端侧资源约束、无线链路不稳定性与多节点协同带来的工程复杂度有了直接体感。研究生阶段希望以此为基础，围绕移动边缘计算（MEC）、任务卸载调度与无线物联网资源优化开展系统性训练，将工程直觉转化为可建模、可实验的研究能力。
+            </p>
+          </div>
+        </div>
+
+        <div class="stat-strip">
           <div>
             <span>GPA</span>
             <strong>3.68 / 5.00</strong>
@@ -42,165 +85,142 @@
             <strong>3 / 42</strong>
           </div>
           <div>
+            <span>核心课程</span>
+            <strong>网络 86 / Python 98 / 算法 90</strong>
+          </div>
+          <div>
             <span>身份</span>
             <strong>中共预备党员</strong>
           </div>
         </div>
-      </div>
+      </section>
 
-      <aside class="contact-panel">
-        <h2>联系信息</h2>
-        <a href="tel:18409391231">电话：18409391231</a>
-        <a href="mailto:18409391231@163.com">邮箱：18409391231@163.com</a>
-        <p>籍贯：甘肃陇南</p>
-        <p>出生年月：2004年10月</p>
-        <div class="research-tags">
-          <span>边缘智能</span>
-          <span>MEC 计算卸载</span>
-          <span>无线物联网</span>
-          <span>多节点通信</span>
-          <span>资源优化</span>
+      <section id="projects" class="section section-quiet reveal">
+        <div class="section-head section-head-inline">
+          <div>
+            <p class="kicker">Selected Work</p>
+            <h2>项目</h2>
+          </div>
+          <span>点击项目查看详情</span>
         </div>
-      </aside>
-    </div>
-  </header>
 
-  <main>
-    <section id="fit" class="section reveal">
-      <div class="section-head">
-        <p class="kicker">Research Interests</p>
-        <h2>研究方向与实践基础</h2>
-      </div>
-      <div class="fit-grid">
-        <article class="fit-card">
-          <span>01</span>
-          <h3>边缘智能与端侧推理</h3>
-          <p>在智能头盔项目中围绕多传感器感知、NPU 推理部署和低时延预警完成原型设计，关注端侧设备在算力受限条件下的实时智能感知与响应。</p>
-        </article>
-        <article class="fit-card">
-          <span>02</span>
-          <h3>移动边缘计算与任务卸载</h3>
-          <p>具备从设备节点到云端消息网络的系统搭建经验，理解实际应用中的算力、能耗、带宽和时延约束，并希望围绕端边协同与资源调度继续深入。</p>
-        </article>
-        <article class="fit-card">
-          <span>03</span>
-          <h3>无线物联网与智能网络</h3>
-          <p>在智慧牧场项目中完成 ESP32 分布式节点、RFID、OpenMV、EMQX/MQTT 通信链路，关注多节点接入、数据汇聚、可靠传输和网络化感知系统工程落地。</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="section section-muted reveal">
-      <div class="section-head section-head-inline">
-        <div>
-        <p class="kicker">Projects</p>
-        <h2>项目与科研经历</h2>
-        </div>
-        <span>点击卡片查看详细介绍</span>
-      </div>
-      <div class="project-grid">
-        <a class="project-card" href="lingxi-smart-helmet.html">
-          <div class="row">
+        <div class="project-list">
+          <a class="project-card" href="lingxi-smart-helmet.html">
+            <div class="project-index">01</div>
             <div>
-              <p class="time">2024.11 - 2025.12</p>
-              <h3>灵犀智盔：边端 NPU 模型加速推理的多传感器主动安全智能骑行头盔</h3>
+              <p class="time">2024.11 - 2025.12 · 项目负责人</p>
+              <h3>灵犀智盔</h3>
+              <p>
+                面向边端 NPU
+                模型加速推理的多传感器主动安全智能骑行头盔，聚焦端侧 AI
+                推理、多传感器感知与低时延响应。
+              </p>
             </div>
-            <span>项目负责人</span>
-          </div>
-          <p>主导需求调研、方案设计到系统实现，围绕环境感知、风险预警和语音交互构建主动安全系统。</p>
-          <p class="project-note">研究关联：端侧 AI 推理、多传感器感知、低时延响应、端边协同任务划分。</p>
-          <div class="project-meta">
-            <span>校级创新创业训练项目</span>
-            <span>西门子杯西部三赛区二等奖</span>
-          </div>
-        </a>
+            <div class="project-meta">
+              <span>边缘智能</span>
+              <span>NPU 推理</span>
+              <span>主动安全</span>
+            </div>
+          </a>
 
-        <a class="project-card" href="smart-ranch.html">
-          <div class="row">
+          <a class="project-card" href="smart-ranch.html">
+            <div class="project-index">02</div>
             <div>
-              <p class="time">2025.04 - 2025.06</p>
-              <h3>智慧牧场：分布式感知节点与 MQTT 通信网络养殖管理系统</h3>
+              <p class="time">2025.04 - 2025.06 · 核心开发成员</p>
+              <h3>智慧牧场</h3>
+              <p>
+                基于 ESP32、OpenMV、RFID 与 EMQX/MQTT
+                的分布式感知系统，关注多节点接入、数据汇聚与可靠传输。
+              </p>
             </div>
-            <span>核心开发成员</span>
-          </div>
-          <p>面向高原牦牛养殖中的环境监测、个体识别和远程管理需求，完成物联网原型系统开发。</p>
-          <p class="project-note">研究关联：无线物联网接入、多节点通信、边缘数据汇聚、网络可靠传输。</p>
-          <div class="project-meta">
-            <span>ESP32</span>
-            <span>MQTT / EMQX</span>
-            <span>OpenMV</span>
-          </div>
-        </a>
-      </div>
-    </section>
+            <div class="project-meta">
+              <span>无线物联网</span>
+              <span>MQTT</span>
+              <span>分布式节点</span>
+            </div>
+          </a>
+        </div>
+      </section>
 
-    <section id="skills" class="section reveal">
-      <div class="section-head">
-        <p class="kicker">Capability</p>
-        <h2>能力基础</h2>
-      </div>
-      <div class="skills-grid">
-        <div>
-          <h3>编程与算法</h3>
-          <p>熟练掌握 C 语言，掌握 Java、Python；具备程序设计竞赛与数学建模训练基础。</p>
+      <section id="skills" class="section reveal">
+        <div class="section-head">
+          <p class="kicker">Capability</p>
+          <h2>能力基础</h2>
         </div>
-        <div>
-          <h3>嵌入式与硬件</h3>
-          <p>掌握 STM32、ESP32 基础开发流程，熟悉嘉立创 EDA、PCB 设计与手工贴片。</p>
-        </div>
-        <div>
-          <h3>网络与系统</h3>
-          <p>具备 MQTT 消息通信、EMQX 部署、多节点数据接入和前后端联调经验。</p>
-        </div>
-        <div>
-          <h3>组织与推进</h3>
-          <p>担任 3D 打印实验室负责人、班长，能承担项目推进、组会组织和实践协作任务。</p>
-        </div>
-        <div>
-          <h3>运动与习惯</h3>
-          <p>长期参与篮球、羽毛球和中长距离骑行，重视团队协作、节奏控制、持续训练与稳定执行。</p>
-        </div>
-      </div>
-    </section>
 
-    <section id="awards" class="section section-muted reveal">
-      <div class="two-col">
-        <div>
+        <div class="skills-grid">
+          <div>
+            <h3>编程与算法</h3>
+            <p>
+              C 语言基础扎实，掌握
+              Java、Python，具备程序设计竞赛与数学建模训练基础。
+            </p>
+          </div>
+          <div>
+            <h3>嵌入式与硬件</h3>
+            <p>
+              熟悉 STM32、ESP32 开发流程，掌握嘉立创 EDA、PCB 设计与手工贴片。
+            </p>
+          </div>
+          <div>
+            <h3>网络与系统</h3>
+            <p>
+              具备 MQTT 消息通信、EMQX 部署、多节点数据接入和前后端联调经验。
+            </p>
+          </div>
+          <div>
+            <h3>协作与推进</h3>
+            <p>
+              担任 3D
+              打印实验室负责人、班长，能够组织组会、拆解任务并推进项目交付。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="awards" class="section section-quiet reveal">
+        <div class="achievement-layout">
           <div class="section-head">
-            <p class="kicker">Awards</p>
-            <h2>竞赛与成果</h2>
+            <p class="kicker">Achievements</p>
+            <h2>成果与荣誉</h2>
           </div>
-          <ul class="clean-list">
-            <li>第五届全国高校计算机能力挑战赛程序设计挑战赛（C语言）国家二等奖（2025.05）</li>
-            <li>第七届传智杯全国IT技能大赛国家二等奖（2025.12）</li>
-            <li>中国国际大学生创新大赛(2024)省级铜奖（2024.10）</li>
-            <li>2024高教社杯全国大学生数学建模竞赛本科组省级特等奖（2024.09）</li>
-            <li>第十六届蓝桥杯C/C++程序设计大赛省级一等奖（2025.06）</li>
-            <li>软件著作权：计算机组成原理虚拟仿真实验系统已发放（2025.12）</li>
-            <li>外观设计专利：多向转轴USB接口已下证（2025.10）</li>
-          </ul>
-        </div>
-        <div>
-          <div class="section-head">
-            <p class="kicker">Honors</p>
-            <h2>荣誉奖项</h2>
+          <div class="timeline-list">
+            <article>
+              <span>2025</span>
+              <p>
+                第五届全国高校计算机能力挑战赛程序设计挑战赛 C 语言国家二等奖
+              </p>
+            </article>
+            <article>
+              <span>2025</span>
+              <p>第七届传智杯全国 IT 技能大赛国家二等奖</p>
+            </article>
+            <article>
+              <span>2024</span>
+              <p>高教社杯全国大学生数学建模竞赛本科组省级特等奖</p>
+            </article>
+            <article>
+              <span>2025</span>
+              <p>第十六届蓝桥杯 C/C++ 程序设计大赛省级一等奖</p>
+            </article>
+            <article>
+              <span>2025</span>
+              <p>计算机组成原理虚拟仿真实验系统软件著作权已发放</p>
+            </article>
+            <article>
+              <span>2025</span>
+              <p>西北师范大学综合一等奖学金、创新创业奖学金</p>
+            </article>
           </div>
-          <ul class="clean-list">
-            <li>2024-2025 省三好学生（2026.03）</li>
-            <li>2024-2025 校三好学生（2025.12）</li>
-            <li>2024-2025 西北师范大学综合一等奖学金（2025.12）</li>
-            <li>2024-2025 创新创业奖学金（2025.12）</li>
-          </ul>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer class="footer">
-    <p>© <span id="year"></span> 王波 · 保研学术主页</p>
-    <a href="#top">返回顶部</a>
-  </footer>
+    <footer class="footer">
+      <p>© <span id="year"></span> 王波 · 个人介绍</p>
+      <a href="#top">返回顶部</a>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
